@@ -1,0 +1,26 @@
+{
+  "name": "watcher",
+  "version": "1.0.0",
+  "description": "monitor every changes happened for files and dirs",
+  "main": "watcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngAhmedMahmoud/watcher.git"
+  },
+  "keywords": [
+    "file",
+    "watcher",
+    "directory",
+    "changes",
+    "monitor"
+  ],
+  "author": "EngAhmedMahmoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EngAhmedMahmoud/watcher/issues"
+  },
+  "homepage": "https://github.com/EngAhmedMahmoud/watcher#readme"
+}
