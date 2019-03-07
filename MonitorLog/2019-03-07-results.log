@@ -1,0 +1,3 @@
+{"message":{"event":"add","path":"installed/information"},"level":"info","timestamp":"2019-03-07 14:31:54"}
+{"message":{"event":"change","path":"installed/information"},"level":"info","timestamp":"2019-03-07 14:32:03"}
+{"message":{"event":"unlink","path":"installed/information"},"level":"info","timestamp":"2019-03-07 14:32:31"}

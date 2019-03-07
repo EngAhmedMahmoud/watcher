@@ -26,17 +26,25 @@ const logger = createLogger({
     transports: [
       dailyRotateFileTransport
     ]
-  });
-//logging  
+});
+//logging  info
 const chokidar = require('chokidar');
-chokidar.watch('.', {ignored: /(^|[\/\\])\../}).on('all', (event, path) => {
+chokidar.watch('installed', {ignored: /(^|[\/\\])\../}).on('all', (event, path) => {
     path = (path.split(" ")[0]);
-    if( ! (path.includes("MonitorLog")) && event == "change" ){
+    let pathVal = path.includes("MonitorLog");
+    if(pathVal == true){
+        if(event !="change"){
+            logger.info({
+                event:event,
+                path:path
+            });
+        }
+        
+    }else{
         logger.info({
             event:event,
             path:path
         });
-    } 
-    
+    }
     
 });
