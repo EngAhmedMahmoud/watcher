@@ -25,6 +25,8 @@
   "homepage": "https://github.com/EngAhmedMahmoud/watcher#readme",
   "dependencies": {
     "chokidar": "^2.1.2",
-    "dotenv": "^6.2.0"
+    "dotenv": "^6.2.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.8.0"
   }
 }
